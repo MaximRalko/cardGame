@@ -23,7 +23,7 @@ main{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 40px;
+	padding: 70px;
 	font-size: 25px;
 }
 
@@ -46,9 +46,23 @@ main{
 	scale: 1.1;
 }
 
+.game-header{
+	display: flex;
+	align-items: center;
+}
 
+.reset{
+	width: 120px;
+}
 
+.lvl{
+	flex-grow: 1;
+	text-align: left;
+}
 
+.null{
+	padding-top: 0;
+}
 
 
 
