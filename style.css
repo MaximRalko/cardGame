@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: rgb(255, 0, 0);
+}
+
+body {
+	background-image: url(/img/back.png);
+	background-size: cover;
+}
+
+
+header{
+	font-size: 30px;
+	padding: 40px;
+}
+
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 70px;
+	font-size: 25px;
+}
+
+.menu	{
+	margin: auto;
+}
+
+.btn{
+	background-color: rgb(248, 191, 5);
+	color: rgb(0, 0, 0);
+	margin: 15px auto;
+	padding: 8px;
+	width: 250px;
+	border-radius: 13px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	scale: 1.1;
+}
+
+.game-header{
+	display: flex;
+	align-items: center;
+}
+
+.reset{
+	width: 120px;
+}
+
+.lvl{
+	flex-grow: 1;
+	text-align: left;
+}
+
+.null{
+	padding-top: 0;
+}
+
+.game-cards{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+.card{
+	width: 230px;
+	height: 330px;
+	border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	background-color: white;
+	transition: 0.5s;
+}
+
+.rotate{
+	transform: perspective(200px) rotateY(180deg);
+	transition: 0.5s;
+}
+
+
